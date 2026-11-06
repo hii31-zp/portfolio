@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Hii's portfolio</title>
+<meta name="description" content="大学生ひーのポートフォリオです">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=20261107p">
+</head>
+<body>
+
+<!-- ハンバーガーメニュー -->
+<nav class="menu" aria-label="メニュー">
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-list" aria-label="メニューを開く">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path class="menu-btn-open" d="M4 7 H20 M4 12 H20 M4 17 H20"/><path class="menu-btn-close" d="M6 6 L18 18 M18 6 L6 18"/></svg>
+  </button>
+  <ul class="menu-list" id="menu-list" hidden>
+    <li><a href="index.html" aria-current="page">Top</a></li>
+    <li><a href="about.html">About me</a></li>
+    <li class="menu-contact"><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ページトップ-->
+<header class="page-top">
+  <div class="topbar">
+    <a class="title" href="index.html">portfolio
+      <svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="#6B3A2C" stroke-width="1.6"><circle cx="12" cy="6.5" r="4"/><circle cx="17.5" cy="11" r="4"/><circle cx="15" cy="17" r="4"/><circle cx="9" cy="17" r="4"/><circle cx="6.5" cy="11" r="4"/></g><circle cx="12" cy="12" r="2.2" fill="#FAF6EE" stroke="#6B3A2C" stroke-width="1.4"/></svg>
+    </a>
+  </div>
+  <div class="wrapper">
+    <div class="page-top-box">
+      <svg viewBox="0 0 525 300" aria-hidden="true">
+        <!-- 茎 -->
+        <path class="draw-line" pathLength="1" style="--d:1.6s;--w:.3s" d="M30 228 C 40 250, 80 258, 150 255 C 240 252, 340 246, 392 222 C 420 208, 432 180, 431 148 C 430 124, 428 108, 431 92"/>
+        <!-- 葉 -->
+        <path class="leaf" pathLength="1" style="--w:1.4s" d="M431 152 C 448 138, 478 136, 498 142 C 480 156, 452 161, 431 152 Z"/>
+        <path class="leaf" pathLength="1" style="--w:1.15s" d="M398 218 C 382 200, 352 196, 334 202 C 350 216, 376 222, 398 218 Z"/>
+        <!-- 花びら -->
+        <circle class="petal" pathLength="1" style="--w:1.75s" cx="432" cy="38" r="17"/>
+        <circle class="petal" pathLength="1" style="--w:1.9s" cx="450" cy="52" r="17"/>
+        <circle class="petal" pathLength="1" style="--w:2.05s" cx="443" cy="73" r="17"/>
+        <circle class="petal" pathLength="1" style="--w:2.2s" cx="420" cy="73" r="17"/>
+        <circle class="petal" pathLength="1" style="--w:2.35s" cx="413" cy="52" r="17"/>
+        <circle class="petal" pathLength="1" style="--w:2.55s;fill:#FAF6EE" cx="431.5" cy="57" r="7"/>
+      </svg>
+      <img class="top-ghost" src="images/ghost/normal_ghost.png" alt="パソコンをうつおばけ" width="924" height="614">
+      <h1><span class="t1">I’m Hii</span> <span class="t2">Welcome to my portfolio</span></h1>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- 今やっていること -->
+  <section aria-label="今やっていること">
+    <div class="wrapper">
+      <div class="rings">
+        <div class="ring"><p><svg class="icon-in-circle" viewBox="0 0 40 28" aria-hidden="true"><path d="M3 14 H7 M11 8 V20 M16 4 V24 M21 10 V18"/><path d="M28 11 C28 8, 32 7, 33 10 C34 7, 38 8, 38 11 C38 15, 33 18, 33 18 C33 18, 28 15, 28 11 Z" class="filled-color"/></svg>音声感情<br>分析<small>SPEECH</small></p></div>
+        <div class="ring"><p><svg class="icon-in-circle" viewBox="0 0 40 28" aria-hidden="true"><rect x="13" y="1" width="14" height="26" rx="3.5" class="filled-color"/><path d="M18 23 H22"/><path d="M31 6 L34 3 M32 11 H36"/></svg>モバイル<br>アプリ開発<small>MOBILE</small></p></div>
+        <div class="ring"><p><svg class="icon-in-circle" viewBox="0 0 40 28" aria-hidden="true"><path d="M15 9 V6 C15 4.5, 16 3.5, 17.5 3.5 H22.5 C24 3.5, 25 4.5, 25 6 V9"/><rect x="6" y="9" width="28" height="17" rx="3.5" class="filled-color"/><path d="M6 16 H34"/><rect x="18" y="14" width="4" height="4.5" rx="1"/><path d="M36 4 L38.5 1.5 M37 8.5 H39.5"/></svg>長期<br><span class="order">インターン</span><small>INTERNSHIP</small></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お知らせ -->
+  <div class="notice-wrap">
+    <div class="wrapper">
+      <aside class="notice" aria-label="お知らせ">
+        <span class="notice-tag">お知らせ</span>
+        <ul>
+          <li>作品ページは公開準備中です</li>
+          <li><a href="about.html">自己紹介ページはこちら →</a></li>
+        </ul>
+        <a class="house" href="about.html" aria-label="About me を見る">
+          <em>\ Touch me! /</em>
+          <img src="images/ghost/normal_withoutCP_ghost.png" alt="" width="835" height="614">
+          <svg viewBox="0 0 100 80" aria-hidden="true">
+            <!-- 家-->
+            <path class="wall" d="M16 40 L16 74 L68 74 L68 40 Z"/>
+            <path d="M6 40 L42 12 L78 40 Z" fill="#6B3A2C" stroke="#6B3A2C" stroke-width="2" stroke-linejoin="round"/>
+            <g fill="none" stroke="#6B3A2C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 40 L16 74 L68 74 L68 40"/>
+              <path d="M34 74 L34 56 L48 56 L48 74"/>
+            </g>
+          </svg>
+        </a>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Profile -->
+  <section aria-labelledby="pf">
+    <div class="wrapper">
+      <h2 class="label" id="pf">Profile :</h2>
+      <div class="profile">
+        <div class="avatar-col">
+          <div class="avatar"><img src="images/ghost/icon_ghost.png" alt="" width="973" height="973"></div>
+          <div class="icons">
+            <a class="icon" href="#" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+            <a class="icon" href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+          </div>
+        </div>
+        <div class="name">
+          <h2>ひー</h2>
+          <span class="school-name">大阪大学基礎工学部２年</span>
+          <p class="placeholder">（考え中）</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works (枠のみ用意した)
+  <section aria-labelledby="wk">
+    <div class="wrapper">
+      <h2 class="label" id="wk">Works :</h2>
+      <ul class="works">
+        <li class="work"><a href="#">
+          <div class="shot"><span>（スクショ）</span></div>
+          <div class="tags"><span class="cat placeholder">（分野）</span></div>
+          <h3 class="placeholder">（作品名）</h3>
+          <p class="placeholder">（説明）</p>
+          <div class="tags"><span class="placeholder">（使った技術）</span></div>
+        </a></li>
+        <li class="work"><a href="#">
+          <div class="shot" style="--bg:#F6E6CF"><span>（スクショ）</span></div>
+          <div class="tags"><span class="cat placeholder">（分野）</span></div>
+          <h3 class="placeholder">（作品名）</h3>
+          <p class="placeholder">（説明）</p>
+          <div class="tags"><span class="placeholder">（使った技術）</span></div>
+        </a></li>
+        <li class="work"><a href="#">
+          <div class="shot" style="--bg:#F3E1E1"><span>（スクショ）</span></div>
+          <div class="tags"><span class="cat placeholder">（分野）</span></div>
+          <h3 class="placeholder">（作品名）</h3>
+          <p class="placeholder">（説明）</p>
+          <div class="tags"><span class="placeholder">（使った技術）</span></div>
+        </a></li>
+      </ul>
+      <div class="more"><a href="#">ぜんぶ見る →</a></div>
+    </div>
+  </section>
+  -->
+
+  <!-- 大切にしていること -->
+  <section class="beliefs-section" aria-label="大切にしていること">
+    <div class="wrapper">
+      <div class="beliefs">
+        <div class="box"><h3>だれかの笑顔をつくれる人になる。</h3><p>今までたくさんの人にお世話になったから私もだれかを喜ばせられる人になりたい。</p></div>
+        <div class="box"><h3>困難のある人生は、有難い人生。</h3><p>挑戦心を忘れず、壁があっても挫けず前向きに少しずつ進みたい。</p></div>
+        <span class="scroll-sign" aria-hidden="true">scroll</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- CONTACT-->
+<footer class="contact" id="contact">
+  <div class="wrapper">
+    <h2>CONTACT</h2>
+    <div class="icons">
+      <a class="icon" href="#" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+      <a class="icon" href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+    </div>
+    <p class="mail">email : <span class="placeholder">（メールアドレス）</span></p>
+  </div>
+  <img class="contact-ghost" src="images/ghost/normal_withoutCP_ghost.png" alt="" width="835" height="614">
+</footer>
+
+<script src="js/scroll-hidden.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
