@@ -238,6 +238,15 @@ section {
   height: 18px;
   fill: var(--text);
 }
+/* ホバーで色を反転 */
+.icon:hover,
+.icon:focus-visible {
+  background: var(--text);
+}
+.icon:hover svg,
+.icon:focus-visible svg {
+  fill: var(--paper);
+}
 
 /* scroll。*/
 .scroll-sign {
@@ -1229,6 +1238,7 @@ section {
 .motto p {
   margin: 0;
   max-width: 34em;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 600px) {
